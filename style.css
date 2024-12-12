@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=La+Belle+Aurore&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.la-belle-aurore-regular {
+    font-family: "La Belle Aurore", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.crimson-text-regular {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #01244C;
+}
+
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+a{
+    text-decoration: none;
+} 
+span{
+    display: inline-block;
+}
+/**************** Header Styles ************************/
+header {
+    background-color: #01244c;
+    color: #E26F98;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header a , .btn {
+    text-align: center;
+    color: #E26F98;
+    text-decoration: none;
+    font-family: "La Belle Aurore";
+    font-size: x-large;
+    padding: 5px;
+    display: inline-block;
+    width: 100px;
+    border-radius: 16px;
+    transition: all .5s;
+}
+
+.navBtn a, .btn{
+    background-color: #FFA6C6;
+    color:#01244c;
+    font-weight: bold;
+    width: 130px;
+    transition: all .5s;
+}
+nav a:hover{
+    color: #01244c;
+    background-color: #FFA6C6;
+}
+
+
+  /***************** main section ******************/
+main{
+    min-height: 110vh;
+    overflow: hidden;
+}
+main .main{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main h1{
+    font-family: "La Belle Aurore";
+    color: #01244c;
+    font-weight: 300;
+}
+main .divHand{
+    padding:0px 10px;
+    margin:0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 20px;
+}
+.stitle{
+    font-size: 50px;
+    margin: 0px 10px;
+    padding: 0px 10px;
+
+}
+.lsec{
+    margin-top: 40px;
+}
+.mainIcon{
+    padding:0px 10px;
+    margin: 10px;
+}
+.mainIcon i {
+    color: #01244c;
+    font-size: 18px;
+    margin: 0 8px;
+    transition: all .5s;
+}
+.mainIcon i:hover{
+    color: #E26F98;
+    
+}
+.main p {
+    font-family:"Crimson Text" ;
+    color: #01244C;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.btn{
+    width: 150px;
+    transition: all .5s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #E26F98;
+    border: #E26F98 1px solid;
+
+}
+ /***************** web section ******************/
+.web{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width:100%;
+    height: 200px;
+    /* overflow: hidden; */
+}
+.web1 , .web2{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color:#E26F98;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:.9cm;
+    padding: 0px 16px;
+}
+.web1{
+    /*transform: rotate(-10deg);
+    */transform: skewy(-7deg);
+}
+.web2{
+    transform:skew(5deg, 10deg);
+}
+
+/* .web2{
+    transform:skew(-5deg, -10deg);
+    -webkit-transform:skew(-5deg, -10deg);
+    -moz-transform:skew(-5deg, -10deg);
+    -ms-transform:skew(-5deg, -10deg);
+    -o-transform:skew(-5deg, -10deg);
+
+      transform: skew(-20deg, 10deg);
+    transform:skew(-2deg,4deg);
+    transform: skewy(6deg);
+   
+} */
+
+/***************** about section ******************/
+.about{
+    width: 90%;
+    margin:50px auto 20px;
+    padding: 30px;
+    max-height: 600px;
+    border-radius: 20px;
+    border: #E26F98 2px solid;
+
+}
+.baseTitle{
+    font-family: "La Belle Aurore";
+    font-size: 1.2cm;
+    font-weight: lighter;
+    color: #01244c;
+    padding: 2px 0px 8px;
+    margin: 10px;
+}
+.aboutcap1{
+    font-size: 56px;
+    color: #E26F98;
+    text-shadow: #3333338c 1px 0px;
+    line-height: 1.5cm;
+}
+.aboutcap2{
+    color: #01244c;
+    padding: 10px 0px 8px;
+}
+.aboutBtn{
+    width: fit-content;
+    padding: 16px;
+    margin-top: 10px;
+}
+
+/***************** services section ******************/
+.services{
+    text-align: center;
+    height: 400px;
+    width: 90%;
+    margin:42px auto;
+    padding: 30px;
+    max-height: 600px;
+}
+.servicesDetail{
+    width: 50%;
+    margin:0px auto 24px;
+    color: #5D5A5A;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+.services h2{
+    padding: 2px 0px 1px;
+}
+.servicesitems{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.servicesitems .SItem{
+    width: 30%;
+    padding: 16px 0px 16px 24px;
+    border-radius: 16px;
+    border: 2px solid #E26F98;
+    transition: all .5s;
+}
+.servicesitems h3{
+    color: #01244C;
+    font-size: 24px;
+    padding:16px;
+}
+.servicesitems p{
+    padding:0px 16px 16px;
+    word-spacing: 2px;
+    color: #01244C;
+    line-height: .6cm;
+}
+.ingrediantBtn{
+    color: white;
+    display: inline-block;
+    width: 160px;
+    padding: 16px;
+    font-size: 24px;
+    border-radius: 16px;
+    background-image: linear-gradient(to right,#E26F, #E26F98);
+    transition: all .5s;
+    
+}
+.ingrediantBtn i{
+    padding-left: 10px;
+}
+.ingrediantBtn:hover{
+    background-image: linear-gradient(to right,#01244C, #0c509e);
+}
+.servicesitems .SItem:hover{
+    border: 3px ;
+    box-shadow: #ffa6c77d 0px 3px 12px;
+}
+/***************** projects section ******************/
+.projects{
+    min-height: 700px;
+    /* margin-bottom: 24px; */
+}
+.projects .pItem{
+    border: #01244C 2px solid;
+    transition: all .5s;
+}
+.projects .pItem:hover{
+    border: 3px ;
+    box-shadow: #01244C 0px 3px 12px;
+}
+.pItem div{
+    width: 90%;
+}
+.pItem div img{
+    width: 100%;
+    border-radius: 12px;
+}
+.projects .pItem p , .testperson{
+    font-family: "La Belle Aurore";
+    font-size: 16px;
+    padding: 16px 16px 0px;
+}
+.projects h3{
+    padding: 0px 16px 16px;
+    font-weight: lighter;
+    font-family: "Crimson Text";
+    word-spacing: 2.5px;
+}
+.projects .ingrediantBtn{
+    background-image: linear-gradient(to right,#01244C, #0c509e);
+    width: fit-content;
+    transition: all .5s;
+}
+.projects .ingrediantBtn:hover{
+    background-image: linear-gradient(to right,#E26F, #E26F98);
+}
+/***************** testomenial section ******************/
+.testomenial {
+    min-height: 500px;
+}
+.testomenial h2{
+    padding: 0px;
+    margin: 0px;
+}
+.testomenial .testItem{
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(to right,#01244C, #0c509e);
+    color: white ;
+    min-height: 350px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    transition: all .5s;
+}
+.testomenial .testItem p{
+    color: white;
+    text-align: left;
+}
+.testomenial .testItem .testImg{
+    text-align: right;
+    width: 40%;
+}
+.testomenial .testItem .testCap{
+    text-align: center;
+    width: 50%;
+}
+.testomenial .testItem .testCap p{
+    font-size: 20px;
+    word-spacing: 3px;
+    padding: 24px;
+}
+.testomenial .testItem .testIcons{
+    justify-self: end;
+}
+.testomenial .testItem .testIcons i{
+    background-color: white;
+    color: #01244c;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    align-content: center;
+    transition: all .5s;
+}
+.testomenial .testItem .testIcons i:hover{
+    background-color: #01244C;
+    color: white;
+    border: white solid 1px;
+}
+.testomenial .testItem:hover{
+    box-shadow: #01244ca3 0px 3px 12px;
+}
+/***************** contacts section ******************/
+.Contact{
+    min-height: 600px;
+    padding: 24px;
+    width: 90%;
+    margin: auto;
+}
+.formFlex{
+    display: flex;
+    justify-content: space-between;
+}
+form input , select , textarea{
+    width: 50%;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 8px;
+    border: #E26F98 3px solid;
+}
+form select{
+    width: 99%;
+}
+textarea{
+    min-width: 96%;
+}
+/* input:active{
+    border: #E26F98 2px solid;
+}
+input::placeholder{
+    color: #01244c !important;
+}
+input:focus-visible{
+    border: #E26F98 2px solid;
+
+} */
+form button{
+    color: white;
+    width: 240px;
+    padding: 24px;
+    font-size: 24px;
+    border-radius: 16px;
+    background-image: linear-gradient(to right,#E26F, #E26F98);
+    border: #E26F98;
+    transition: all .5s;
+}
+form button:hover{
+    background-image: linear-gradient(to right,#01244C, #0c509e);
+}
+.formBtn{
+    display: flex;
+    justify-content: end;
+}
+
+/***************** footer section ******************/ 
+footer {
+    background-color: #ffa6c777;
+    color: #01244C;
+    min-height: 400px;
+    overflow: hidden;
+}
+.footer{
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul p{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "La Belle Aurore";
+    padding: 8px;
+}
+footer ul{ 
+    list-style-type: none;   
+}
+footer li {
+    padding:8px;
+}
+footer .fAbstract{
+    width: 30%;
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 1.5 cm;
+    padding: 8px;
+}
+footer .fAbstract img{
+    width: 250px;
+}
+footer .fAbstract p{
+    padding-left: 16px;
+}
+footer .fLists{
+    width: 15%;
+    padding: 8px;
+    margin-top: 24px;
+    font-size: 24px;
+}
+footer .fServises{
+    width: 20%;
+}
+footer .fContacts{
+    width: 24%;
+}
+footer .mainIcon{
+    padding: 0px;
+    margin: 0%;
+}
+
+
+
+
+
+.fCopyright{
+    border-top: #01244C 1px solid;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+}
